@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>  HTML Forms Demonstration </h2>
+  <h2>1. Contact Form</h2>
+  <div>
+    <fieldset>
+      <legend>Personal Information</legend><br>
+      <div>
+        <label for="name">Full name:</label>
+        <input type="text" placeholder="John Doe"/>
+      </div><br>
+      <div>
+        <label for="emai">Email Address:</label>
+        <input type="email" placeholder="example@domain.com" />
+      </div><br>
+      <div>
+        <label for="phone number">Phone number:</label>
+        <input type="number" placeholder="123-456-7890" />
+      </div><br>
+      <div>
+        <label for="address">Your message:</label>
+        <textarea >Type your message here...</textarea> 
+      </div><br>
+      <div>
+        <input type="checkbox" name="subscribe" />Subscribe to our  newsletter
+      </div><br>
+      <div>
+      <input type="button" value="submit" />
+      <input type="button" value="clear form" />
+      </div>
+    </fieldset>
+  </div>
+  <div>
+    <h2>2. User Registration Form</h2>
+    <Fieldset>
+      <legend>Create account</legend><br>
+      <div><label for="user name">User name:</label>
+      <input type="text"/></div><br>
+      <div>
+        <label for="password">password:</label>
+      <input type="password"/>
+      </div><br>
+      <div>
+        <label for="c.password">Confirm password</label>
+        <input type="password" />
+      </div><br>
+      <div>
+        Date of Birth: <input type="date"/>
+      </div><br>
+      <div>
+        <label for="">Gender:</label><br>
+        <input type="radio" name="gender" />Male<br>
+        <input type="radio" name="gender" />FeMale<br>
+        <input type="radio" name="gender" />other
+      </div><br>
+     <div>
+      <label for="country">Country:</label>
+      <select>
+        <option value="">--Select country--</option>
+        <option value="india">India</option>
+        <option value="chennai">Chennai</option>
+      </select>
+     </div><br>
+     <div>
+      <input type="checkbox" name="agree">I agree to the <a href="#">Terms and Conditions</a>
+     </div><br>
+     <div>
+      <input type="button" value="Register" />
+     </div>
+    </Fieldset>
+  </div>
+  <div>
+    <h2>3. Customaer Feedback Survey</h2>
+    <fieldset>
+      <legend>Survaey Information</legend>
+      <div>
+        <label for="polling">How satisfied are you with our service?</label>
+        <input type="range">5/10
+      </div>
+      <div>
+        <p>Which product have you used?(select all that apply)</p>
+        <input type="checkbox" name="pA" />product A<br>
+        <input type="checkbox" name="pB" />product B<br>
+        <input type="checkbox" name="pC" />product C<br>
+        <input type="checkbox" name="pD" />product D
+      </div>
+      <p>How often do you use our service?</p>
+      <select>
+        <option value="">--please Select--</option>
+      </select>
+      <p>Do you have any suggetions for improvement?</p>
+      <label for="address"></label>
+      <textarea rows="8" cols="50"></textarea>
+      <p>How likely are you to recommend us? </p>
+    </fieldset>
+  </div>
+</body>
+</html>
